@@ -59,11 +59,23 @@ header {
     margin-top: 50px;
 }
 
-#cards {
+#cards-row {
     background-color: #247BA0;
     padding: 50px;
 }
 
 #titulo-cards {
-    color: #EAECE5;
+    color: #f0f8ff;
+    text-align: center;
+    font-size: 24px;
+}
+
+#div-cards {
+    margin-top: 50px;
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.cards {
+    margin-left: 50px;
 }
