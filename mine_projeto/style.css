@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0px;
+    font-family: 'Inter', cursive, sans-serif;
+}
+
+header {
+    background-image: url(midias/logomenusuperior.svg);
+    color: #f0f8ff;
+}
+
+#logo {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+#titulo-menusuperior {
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
+#texto-menusuperior {
+    margin-top: 35px;
+    margin-left: 150px;
+    padding-bottom: 100px;
+}
+
+#menu-info {
+    background: #EAECE5;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.icone {
+    margin: 50px 0px 50px 100px;
+    padding: 25px;
+}
+
+.textoinfo {
+    display: flex;
+    align-items: center;
+}
+
+#videoexterno {
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+#video {
+    margin: 50px 25px 50px 100px;
+    
+}
+
+#titulo-video {
+    color: #247BA0;
+    margin-top: 50px;
+}
+
+#cards {
+    background-color: #247BA0;
+    padding: 50px;
+}
+
+#titulo-cards {
+    color: #EAECE5;
+}
