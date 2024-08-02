@@ -1,8 +1,8 @@
-var Leonardo = Window.document.getElementById(Leonardo)
-var Samantha = Window.document.getElementById(Samantha)
-var Bruna = Window.document.getElementById(Bruna)
+var Leonardo = window.document.getElementById(Leonardo)
+var Samantha = window.document.getElementById(Samantha)
+var Bruna = window.document.getElementById(Bruna)
 
 function RolarParaDireita() {
-    Leonardo.style = "display:none"
-    Bruna.style = "dispaly:flex"
+    Leonardo.style= "display: none"
+    Bruna.style= "dispaly: flex"
 }
