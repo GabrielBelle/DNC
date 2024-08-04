@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Escola DNC</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="midias/logo.svg" type="image/x-icon">
 </head>
 <body>
     <header>
@@ -33,13 +34,28 @@
     <section id="cards-row">
         <h1 id="titulo-cards"> Mais de 500 alunos já iniciaram seus estudos </h1>
         <div id="div-cards">
-            <img id="backpage" class="seta" src="midias/backpage.svg" alt="ERRO">
+            <img id="backpage" onclick="RolarParaEsquerda()" class="seta" src="midias/backpage.svg" alt="ERRO">
             <img id="Leonardo" class="cards" src="midias/cardsleonardo.svg" alt="ERRO">
             <img id="Samantha" class="cards" src="midias/cardssamantha.svg" alt="ERRO">
             <img id="Bruna" class="cards" src="midias/cardsbruna.svg" alt="ERRO">
             <img id="nextpage" onclick="RolarParaDireita()" class="seta" src="midias/nextpage.svg" alt="ERRO">
         </div>
     </section>
+    <section id="formulario">
+        <h1 id="titulo-formulario">Comece agora mesmo sua jornada dê o proximo passo da sua carreira</h1>
+        <form>
+            <input type="text" placeholder="Nome" required> <br>
+            <input type="email" placeholder="Email" required> <br>
+            <input type="tel" placeholder="Telefone" required> <br>
+            <button type="submit">Acesse a ementa grátis</button>
+        </form>
+    </section>
+    <footer>
+        <p>
+            &copy; Desenvolvido pela DNC - Aplicado por Gabriel Belle Teixeira <br>
+            Todos os direitos reservados 
+        </p>
+    </footer>
     <script src="main.js"></script>
 </body>
 </html>

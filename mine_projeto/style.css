@@ -3,6 +3,7 @@
 * {
     margin: 0px;
     font-family: 'Inter', cursive, sans-serif;
+    box-sizing: border-box;
 }
 
 header {
@@ -89,5 +90,62 @@ header {
 }
 
 .seta {
-    margin-top: 55%;
+    margin-top: 55px;
+    cursor: pointer;
+}
+
+.seta:hover{
+    transform: translateY(-7px);
+    transition-duration: 0.8s;
+}
+
+#formulario {
+    text-align: center;
+}
+
+#titulo-formulario {
+    font-size: 25px;
+    margin: 25px;
+    color: #2b2828;
+}
+
+input {
+    width: 303px;
+    height: 53px;
+    background-color: #eaece5;
+    margin: 12px;
+    border: 0px;
+    border-radius: 8px;
+    padding-left: 20px;
+}
+
+button {
+    background-color: #247BA0;
+    height: 40px;
+    width: 250px;
+    border: 0px;
+    border-radius: 8px;
+    color: #EAECE5;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #2e96c2;
+    color: #f0f8ff;
+    transform: translateY(-2px);
+    box-shadow: 0px 15px 20px #14475e42;
+    transition-duration: 0.6s;
+}
+
+footer {
+    background-color: #247BA0;
+    font-size: small;
+    text-align: center;
+    height: 60px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    color: #f0f8ff;
 }
