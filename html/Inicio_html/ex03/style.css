@@ -15,7 +15,6 @@ font-size: 28px;
 font-weight: 600;
 line-height: 42px;
 text-align: left;
-text-decoration-line: underline;
 text-decoration-style: solid;
 text-underline-position: from-font;
 text-decoration-skip-ink: none;
@@ -41,8 +40,7 @@ menu li {
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
-    text-align: center;
-    text-underline-position: from-font;
+    text-align: center; 
     text-decoration-skip-ink: none; 
 }
 
@@ -53,12 +51,38 @@ a {
 
 #buttonCta {
     background-color: #1f7cff;
+    border-radius: 50px;
     font-family: Poppins;
     font-weight: 600;
     font-size: 16px;
     line-height: 100%;
     letter-spacing: 0%;
     text-align: center;
-    color: white;
-    border-radius: 50px;
+    color: #f0f8ff;
+    padding: 10px 25px 10px 25px;
+
+}
+
+#headerCta p {
+font-family: Poppins;
+font-weight: 400;
+font-size: 16px;
+line-height: 32px;
+letter-spacing: 0%;
+color: #575455;
+}
+
+#headerCta h1 {
+font-family: Poppins;
+font-weight: 700;
+font-size: 45px;
+letter-spacing: 0%;
+}
+
+#headerImg {
+    margin-left: 42px;
+}
+
+#headerImg img {
+    width: 100%;
 }
