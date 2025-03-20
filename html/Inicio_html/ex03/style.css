@@ -60,10 +60,13 @@ a {
     text-align: center;
     color: #f0f8ff;
     padding: 10px 25px 10px 25px;
-
 }
 
 #headerCta p {
+    margin-bottom: 30px;
+}
+
+p.gray {
 font-family: Poppins;
 font-weight: 400;
 font-size: 16px;
@@ -85,4 +88,96 @@ letter-spacing: 0%;
 
 #headerImg img {
     width: 100%;
+}
+
+.headerLogo {
+    text-align: center;
+}
+
+#clients {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#headerClientText {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+h2.red {
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #F75C4E;
+
+}
+
+h1.black{
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+#services p {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.textCenter {
+    text-align: center;
+}
+
+.textCenter h3 {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+#contact {
+    margin-top: 100px;
+}
+
+#contactImg img {
+    width: 100%;
+}
+
+#contactForm {
+    margin-left: 75px;
+    text-align: left;
+}
+
+#contactForm input {
+    font-family: Poppins;
+    width: 406;
+    height: 48;
+    top: 1594px;
+    left: 813px;
+    border-radius: 50px;
+    background-color: #f5f6fb;
+    border: 0;
+    width: 70%;
+    padding: 15px 30px 15px 30px;
+    margin-bottom: 20px;
+}
+
+#contactForm button {
+    font-family: Poppins;
+    width: 180;
+    height: 48;
+    top: 1662px;
+    left: 813px;
+    border-radius: 50px;
+    color: #f0f8ff;
+    background-color:#1f7cff;
+    border: 0;
+    padding: 15px 30px 15px 30px;
 }
