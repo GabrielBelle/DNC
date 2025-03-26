@@ -181,3 +181,15 @@ h1.black{
     border: 0;
     padding: 15px 30px 15px 30px;
 }
+
+#portifolioTitle {
+    margin-top: 150px;
+}
+
+.portifolioImg img {
+    width: 100%;
+}
+
+.portifolioImg {
+    padding: 25px;
+}
