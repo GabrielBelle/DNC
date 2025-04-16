@@ -160,21 +160,10 @@ footer .linha1 {
 }
 
 footer nav {
-    display: flex;
+    display: flex ;
     flex-direction: column;
     align-items: center;
-}
-
-footer h5 {
-    text-align: center;
-    color: aliceblue;
-    font-weight: 800;
-    font-size: 18px;
-    font-family: var(--font-padrão);
-    background-color: var(--preto-dnc);
-    border-radius: 10px;
-    padding: 10px, 10px, 10px, 10px;
-    width: 70%;
+    height: 300px;
 }
 
 footer ul {
@@ -183,11 +172,22 @@ footer ul {
     padding: 0px;
 }
 
+footer h5 {
+    text-align: center;
+    color: aliceblue;
+    font-weight: 800;
+    font-size: 19px;
+    font-family: var(--font-padrão);
+    background-color: var(--preto-dnc);
+    border-radius: 10px;
+    padding: 10px, 10px, 10px, 10px;
+}
+
 footer ul li {
     text-align: center;
     color: aliceblue;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 19px;
     font-family: var(--font-padrão);
     margin: 25px 25px;
 }
@@ -195,4 +195,57 @@ footer ul li {
 footer ul li a {
     color: aliceblue;
     text-decoration: none;
+}
+
+footer ul li a:hover {
+    color: #303030;
+}
+
+footer .endereco {
+    color: aliceblue;
+    font-family: var(--font-padrão);
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    width: 20%;
+    margin-top: 25px;
+}
+
+footer .linha2 {
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 10px;
+}
+
+footer ,.linha2 a:first-child {
+    border-right: 3px solid white;
+}
+
+footer .linha2 a {
+    font-family: var(--font-padrão);
+    font-size: 18px;
+    font-weight: 600;
+    color: aliceblue;
+    text-decoration: none;
+    padding: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    #pincipal {
+        display: flex;
+        height: auto;
+    }
+
+    #menu {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #menu a {
+        height: 50px;
+        align-items: center;
+    }
 }
