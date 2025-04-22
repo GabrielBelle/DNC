@@ -235,17 +235,55 @@ footer .linha2 a {
 @media only screen and (max-width: 600px) {
 
     #pincipal {
-        display: flex;
+        flex-direction: column;
         height: auto;
+        width: 100%;
     }
 
     #menu {
         flex-direction: column;
         width: 100%;
+        margin: 0px;
+        height: auto;
     }
 
     #menu a {
+        display: flex;
         height: 50px;
         align-items: center;
+    }
+    
+    #principal button {
+        flex-direction: column;
+        width: 100%;
+        margin-right: 0%;
+    }
+
+    section h1 {
+        font-size: 38px;
+    }
+
+    section h2 {
+        font-size: 28px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    form {
+        width: 95%;
+        font-size: 20px;
+    }
+
+    .checkboxItens label {
+        font-size: 17px;
+    }
+
+    footer .linha1 {
+        flex-direction: column;
+    }
+
+    footer .endereco {
+        width: 95%;
+        margin-bottom: 25px;
     }
 }
